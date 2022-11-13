@@ -14,3 +14,10 @@ symfony serve -d
 ```
 git show --name-only
 ```
+
+### COMPOSER COMMANDS 
+```
+composer recipes [RECIPE_NAME]
+composer requiere templates
+```
+
