@@ -18,6 +18,7 @@ git show --name-only
 ### COMPOSER COMMANDS 
 ```
 composer recipes [RECIPE_NAME]
-composer requiere templates
+composer require templates
+composer require debug
 ```
 
