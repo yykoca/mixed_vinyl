@@ -20,6 +20,9 @@ git show --name-only
 composer recipes [RECIPE_NAME]
 composer require templates
 composer require debug
+
+// WEBPACK
+composer require encore
 ```
 
 ### PHP BIN/CONSOLE COMMANDS 
