@@ -22,3 +22,13 @@ composer require templates
 composer require debug
 ```
 
+### PHP BIN/CONSOLE COMMANDS 
+```
+// DEBUG
+php bin/console debug:router
+php bin/console debug:autowiring [SERVICE_NAME OR CLASS & INTERFACE]
+
+// ROUTER
+php bin/console router:match [ROUTE]
+php bin/console router:match /api/song/5 --method=POST
+```
