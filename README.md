@@ -1,5 +1,12 @@
 # mixed_vinyl
 
+## TO START THIS PROJECT
+```
+symfony serve -d
+npm install & yarn install
+yarn build --watch
+```
+
 ## CREATE A NEW PROJECT 
 
 ```
