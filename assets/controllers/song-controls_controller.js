@@ -23,10 +23,8 @@ export default class extends Controller {
         event.preventDefault();
 
         axios.get(this.infoUrlValue).then((response) => {
-            console.log(response);
             const audio = new Audio(response.data.url);
-            console.log(response.data.url);
-            // audio.play();
+            audio.play();
         })
     }
 
